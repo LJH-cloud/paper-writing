@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文写作"
+  short_description: "围绕核心认识与证据组织论文，支持起草、审阅、重构与学术表达修订"
+  default_prompt: "请使用 $paper-writing，按照我的最新稿件和修订意见，检查论文主线、贡献与证据的关系，并完成本次要求的写作或修改。"
