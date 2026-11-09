@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nature": {
+      "repository": "Yuan1z0825/nature-skills",
+      "ref": "7d5f160ebfe8033375b4afef7c5911aa4203c983",
+      "license_path": "LICENSE"
+    },
+    "openai": {
+      "repository": "openai/skills",
+      "ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "license_path": null
+    }
+  },
+  "skills": [
+    {
+      "name": "anti-defensive-writing",
+      "bundled_path": "bundled-skills/anti-defensive-writing.md"
+    },
+    {
+      "name": "nature-writing",
+      "source": "nature",
+      "path": "skills/nature-writing",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-polishing",
+      "source": "nature",
+      "path": "skills/nature-polishing",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-reviewer",
+      "source": "nature",
+      "path": "skills/nature-reviewer",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-response",
+      "source": "nature",
+      "path": "skills/nature-response",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-academic-search",
+      "source": "nature",
+      "path": "skills/nature-academic-search",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-ref-verifier",
+      "source": "nature",
+      "path": "skills/nature-ref-verifier",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-citation",
+      "source": "nature",
+      "path": "skills/nature-citation",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-statistics",
+      "source": "nature",
+      "path": "skills/nature-statistics",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-figure",
+      "source": "nature",
+      "path": "skills/nature-figure",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "nature-shared",
+      "source": "nature",
+      "path": "skills/nature-shared",
+      "required_files": [
+        "manifest.yaml"
+      ]
+    },
+    {
+      "name": "imagegen",
+      "source": "openai",
+      "path": "skills/.system/imagegen",
+      "prefer_existing": [
+        ".system/imagegen"
+      ]
+    }
+  ]
+}
